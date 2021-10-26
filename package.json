@@ -1,0 +1,19 @@
+{
+  "name": "covid-data-project",
+  "version": "1.0.0",
+  "description": "Thandi ‘s COVID-19 Data Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealStr1ke/COVID-Data-Project.git"
+  },
+  "author": "RealStr1ke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RealStr1ke/COVID-Data-Project/issues"
+  },
+  "homepage": "https://github.com/RealStr1ke/COVID-Data-Project#readme"
+}
