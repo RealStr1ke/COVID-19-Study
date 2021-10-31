@@ -1,13 +1,13 @@
-Highcharts.chart('ss', {
+Highcharts.chart('al', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/al_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Alabama New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -18,16 +18,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ak', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ak_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Alaska New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -38,16 +38,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('az', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/az_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Arizona New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -58,16 +58,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ar', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ar_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Arkansas New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -78,16 +78,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ca', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ca_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'California New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -98,16 +98,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('co', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/co_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Colorado New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -118,16 +118,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ct', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ct_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Connecticut New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -138,16 +138,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('de', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/de_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Delaware New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -158,16 +158,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('fl', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/fl_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Florida New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -178,16 +178,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ga', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ga_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Georgia New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -198,16 +198,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('hi', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/hi_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Hawaii New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -218,16 +218,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('id', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/id_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Idaho New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -238,16 +238,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('il', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/il_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Illinois New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -258,16 +258,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('in', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/in_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Indiana New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -278,16 +278,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ia', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ia_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Iowa New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -298,16 +298,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ks', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ks_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Kansas New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -318,16 +318,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ky', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ky_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Kentucky New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -338,16 +338,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('la', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/la_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Louisiana New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -358,16 +358,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('me', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/me_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Maine New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -378,16 +378,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('md', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/md_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Maryland New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -398,16 +398,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ma', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ma_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Maryland New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -418,16 +418,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('mi', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/mi_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Michigan New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -438,16 +438,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('mn', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/mn_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Minnesota New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -458,16 +458,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ms', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ms_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Mississippi New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -478,16 +478,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('mo', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/mo_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Missouri New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -498,16 +498,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('mt', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/mt_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Montana New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -518,16 +518,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ne', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ne_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Nebraska New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -538,16 +538,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('nv', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/nv_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Nevada New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -558,16 +558,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('nh', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/nh_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'New Hampshire New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -578,16 +578,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('nj', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/nj_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'New Jersey New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -598,16 +598,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('nm', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/nm_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'New Mexico New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -618,16 +618,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ny', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ny_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'New York New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -638,16 +638,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('nc', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/nc_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'North Carolina New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -658,16 +658,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('nd', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/nd_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'North Dakota New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -678,16 +678,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('oh', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/oh_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Ohio New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -698,16 +698,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ok', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ok_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Oklahoma New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -718,16 +718,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('or', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/or_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Oregon New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -738,16 +738,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('pa', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/pa_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Pennsylvania New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -758,16 +758,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ri', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ri_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Rhode Island New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -778,16 +778,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('sc', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/sc_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'South Carolina New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -798,16 +798,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('sd', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/sd_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'South Dakota New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -818,16 +818,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('tn', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/tn_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Tennessee New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -838,16 +838,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('tx', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/tx_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Texas New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -858,16 +858,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('ut', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ut_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Utah New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -878,16 +878,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('vt', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/vt_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Vermont New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -898,16 +898,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('va', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/va_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Virginia New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -918,16 +918,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('wa', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/wa_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Washington New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -938,16 +938,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('wv', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/wv_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'West Virginia New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -958,16 +958,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('wi', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/wi_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Wisconsin New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
@@ -978,36 +978,16 @@ Highcharts.chart('ss', {
         }
     }
 });
-Highcharts.chart('ss', {
+Highcharts.chart('wy', {
     chart: {
         type: 'spline'
     },
     data: {
         enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/wy_cases.csv'
     },
     title: {
-        text: 'S New Daily Cases Over Time'
-    },
-    xAxis: {
-        type: 'datetime'
-    },
-    yAxis: {
-        title: {
-            text: 'New Daily Cases'
-        }
-    }
-});
-Highcharts.chart('ss', {
-    chart: {
-        type: 'spline'
-    },
-    data: {
-        enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ss_cases.csv'
-    },
-    title: {
-        text: 'S New Daily Cases Over Time'
+        text: 'Wyoming New Daily Cases Over Time'
     },
     xAxis: {
         type: 'datetime'
