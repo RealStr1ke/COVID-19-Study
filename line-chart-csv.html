@@ -15,17 +15,14 @@
       <script language = "JavaScript">
         Highcharts.chart('container', {
     chart: {
-        type: 'spline'
+        type: 'column'
     },
     data: {
-        enablePolling: true,
-        csvURL: window.location.origin + '/data/ny_cases.csv'
+        // enablePolling: true,
+        csvURL: window.location.origin + '/data.csv'
     },
     title: {
-        text: 'New York New Daily Cases Over Time'
-    },
-    xAxis: {
-        type: 'datetime'
+        text: 'Fruit Consumption'
     },
     yAxis: {
         title: {
