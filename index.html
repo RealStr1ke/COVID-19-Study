@@ -1,39 +1,283 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Highcharts Tutorial</title>
-      <script src="https://code.highcharts.com/highcharts.js"></script>
-      <script src="https://code.highcharts.com/modules/data.js"></script>
-      <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <head>
+    <title>Highcharts Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  </head> 
+  <body>   
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
 
-<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
-   </head>
-   
-   <body>
-      <div id = "container" style = "width: 550px; height: 400px; margin: 0 auto"></div>
-      <script language = "JavaScript">
-        Highcharts.chart('container', {
-    chart: {
-        type: 'spline'
-    },
-    data: {
-        enablePolling: true,
-        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/ny_cases.csv'
-    },
-    title: {
-        text: 'New York New Daily Cases Over Time'
-    },
-    xAxis: {
-        type: 'datetime'
-    },
-    yAxis: {
-        title: {
-            text: 'Units'
-        }
-    }
-});
-      </script>
-   </body>
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="cksdkontainer" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Text</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 50</div>
+        <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        <div class="text">Caption Three</div>
+      </div>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="slideshow.js"></script>
+  </body>
    
 </html>
