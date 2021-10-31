@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Highcharts Tutorial</title>
+      <script src="https://code.highcharts.com/highcharts.js"></script>
+      <script src="https://code.highcharts.com/modules/data.js"></script>
+      <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+   </head>
+   
+   <body>
+      <div id = "container" style = "width: 550px; height: 400px; margin: 0 auto"></div>
+      <script language = "JavaScript">
+         Highcharts.chart('container', {
+    chart: {
+        type: 'spline'
+    },
+    title: {
+        text: 'Live Data (CSV)'
+    },
+
+    subtitle: {
+        text: 'Data input from a remote CSV file'
+    },
+
+    data: {
+        csvURL: 'https://demo-live-data.highcharts.com/time-data.csv',
+        enablePolling: true
+    }
+});
+
+      </script>
+   </body>
+   
+</html>
