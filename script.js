@@ -158,6 +158,26 @@ Highcharts.chart('de', {
         }
     }
 });
+Highcharts.chart('dc', {
+    chart: {
+        type: 'spline'
+    },
+    data: {
+        enablePolling: true,
+        csvURL: 'https://raw.githubusercontent.com/RealStr1ke/COVID-19/main/data/dc_cases.csv'
+    },
+    title: {
+        text: 'District of Columbia New Daily Cases Over Time'
+    },
+    xAxis: {
+        type: 'datetime'
+    },
+    yAxis: {
+        title: {
+            text: 'New Daily Cases'
+        }
+    }
+});
 Highcharts.chart('fl', {
     chart: {
         type: 'spline'
