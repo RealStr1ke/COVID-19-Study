@@ -1,7 +1,6 @@
 import os
 import csv
-
-import urllib.request
+import wget
 
 
 dataCDC = './src/cases.csv'
@@ -11,7 +10,7 @@ def getData(folder, states):
     os.remove(dataCDC)
   print('Retrieving CDC data...')
   url = 'https://data.cdc.gov/api/views/9mfq-cb36/rows.csv?accessType=DOWNLOAD'
-  urllib.request.urlretrieve(url, './src/cases.csv')
+  wget.download(url, './src/cases.csv')
   print('Retrieved CDC data.')
 
   for state in states:
