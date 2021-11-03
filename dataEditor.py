@@ -1,6 +1,7 @@
 import os
 import csv
 import wget
+import pandas as pd
 
 
 dataCDC = './src/cases.csv'
@@ -13,6 +14,12 @@ def getData(folder, states):
   wget.download(url, './src/cases.csv')
   print('Retrieved CDC data.')
 
+  csvCDC = csv.reader(dataCDC)
+  for row in csvCDC:
+    row[0] = ( str(row[0] ).replace("/", "-")
+  cdcData = pd.read_csv("./src/cases.csv")
+  cdcData['submission_date'] = pd.to_datetime(cdcData.submission_date, infer_datetime_format = True)
+  cdcData.sort_values(by = 'submission_date', ascending = True, inplace = True)
   for state in states:
     file = state +"_cases.csv"
     filePath = os.path.join("/" + folder, file)
@@ -22,12 +29,12 @@ def getData(folder, states):
     newFile = open(file, "w")
     newFilePath = "./" + folder + "/" + file
     os.rename("./" + file, newFilePath)
-    with open (newFilePath, mode='w') as data:
+    with open(newFilePath, mode='w') as data:
       headers = ['date', 'new_cases']
       writer = csv.DictWriter(data, fieldnames=headers)
 
       writer.writeheader()
-      with open (dataCDC, mode='r') as cases:
+      with open) (dataCDC, mode='r') as cases:
         reader = csv.reader(cases)
         for row in reader:
           if row[1].lower() == state:
