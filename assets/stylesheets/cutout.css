@@ -1,6 +1,4 @@
 .image-container {
-  background-image: url("https://raw.githubusercontent.com/RealStr1ke/COVID-19/d9ea8c5bd123193bffe9aa2eb513b105aa86a646/assets/images/covid.jpg"); /* The image used - important! */
-  background-size: cover;
   position: relative; /* Needed to position the cutout text in the middle of the image */
   height: 300px; /* Some height */
 }
