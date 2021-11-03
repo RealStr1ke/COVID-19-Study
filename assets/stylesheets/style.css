@@ -1,8 +1,10 @@
 body {
-  background-image: url('assets/images/covid.jpg');
+  background-image: url('/assets/images/covid.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  font-family: 'Fruktur';
+  font-size: 22px;
 }
 .container {
   display: grid;

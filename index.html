@@ -3,64 +3,83 @@
   <head>
     <title>US States New Daily Cases</title>
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/cutout.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/sidenav.css">
+    <link href='https://fonts.googleapis.com/css?family=Fruktur' rel='stylesheet'>
+    
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/data.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
 
   </head> 
   <body> 
-    <div class="container">
-      <div id="al" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ak" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="az" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ar" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ca" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="co" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ct" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="de" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="fl" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ga" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="hi" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="id" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="il" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="in" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ia" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ks" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ky" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="la" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="me" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="md" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ma" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="mi" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="mn" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ms" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="mo" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="mt" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ne" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="nv" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="nh" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="nj" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="nm" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ny" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="nc" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="nd" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="oh" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ok" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="or" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="pa" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ri" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="sc" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="sd" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="tn" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="tx" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="ut" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="vt" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="va" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="wa" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="wv" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="wi" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
-      <div id="wy" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+    <div class="image-container">
+      <div class="text">COVID-19 Data</div>
     </div>
+    <!-- Side navigation -->
+    <div class="sidenav">
+      <a href="README.md">About</a>
+      <!-- <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a> -->
+    </div>
+
+    <!-- Page content -->
+    <div class="main">
+      <div class="container">
+        <div id="al" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ak" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="az" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ar" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ca" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="co" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ct" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="de" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="fl" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ga" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="hi" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="id" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="il" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="in" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ia" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ks" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ky" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="la" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="me" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="md" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ma" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="mi" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="mn" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ms" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="mo" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="mt" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ne" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="nv" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="nh" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="nj" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="nm" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ny" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="nc" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="nd" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="oh" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ok" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="or" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="pa" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ri" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="sc" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="sd" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="tn" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="tx" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="ut" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="vt" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="va" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="wa" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="wv" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="wi" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+        <div id="wy" style="min-width: 0.5fr; height: 2fr; margin: 2 auto"></div>
+      </div>
+    </div>
+    
     
     <script type="text/javascript" src="https://code.highcharts.com/themes/dark-unica.js"></script>  
     <script type="text/javascript" src="assets/scripts/script.js"></script>  
