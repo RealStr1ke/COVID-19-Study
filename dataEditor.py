@@ -16,7 +16,7 @@ def getData(folder, states):
 
   csvCDC = csv.reader(dataCDC)
   for row in csvCDC:
-    row[0] = ( str(row[0] ).replace("/", "-")
+    row[0] = (str(row[0])).replace("/", "-")
   cdcData = pd.read_csv("./src/cases.csv")
   cdcData['submission_date'] = pd.to_datetime(cdcData.submission_date, infer_datetime_format = True)
   cdcData.sort_values(by = 'submission_date', ascending = True, inplace = True)
@@ -34,7 +34,7 @@ def getData(folder, states):
       writer = csv.DictWriter(data, fieldnames=headers)
 
       writer.writeheader()
-      with open) (dataCDC, mode='r') as cases:
+      with open(dataCDC, mode='r') as cases:
         reader = csv.reader(cases)
         for row in reader:
           if row[1].lower() == state:
