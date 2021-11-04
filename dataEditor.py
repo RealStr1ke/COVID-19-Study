@@ -27,7 +27,7 @@ def getData(folder, names, initials):
   sNum = 0
 
   for initial in initials:
-    file = state +"_cases.csv"
+    file = initials +"_cases.csv"
     filePath = os.path.join("/" + folder, file)
     if os.path.exists(filePath):
       os.remove(filePath)
