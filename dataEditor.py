@@ -31,7 +31,7 @@ def getData(folder, states):
     newFilePath = "./" + folder + "/" + file
     os.rename("./" + file, newFilePath)
     with open(newFilePath, mode='w') as data:
-      headers = ['date', 'new_cases']
+      headers = ['date', 'New Cases']
       writer = csv.DictWriter(data, fieldnames=headers)
 
       writer.writeheader()
@@ -39,5 +39,5 @@ def getData(folder, states):
         reader = csv.reader(cases)
         for row in reader:
           if row[1].lower() == state:
-            writer.writerow({'date': row[0], 'new_cases': row[5]})
+            writer.writerow({'date': row[0], 'New Cases': row[5]})
 getData("data", stateInitials )
