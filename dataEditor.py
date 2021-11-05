@@ -4,17 +4,20 @@ import wget
 import pandas as pd
 
 
-dataCDC = './assets/cases.csv'
+dataCDC = './assets/cdc.csv'
+dataJHU = './assets/jhu.csv'
+dataNYT = './assets/nyt.csv'
+
 stateInitials = ["AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK", "OR", "PA","PR","RI","SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY"]
 stateInitialsL = ["al","ak","az","ar","ca","co","ct","de","fl","ga","hi","id","il","in","ia","ks","ky","la","me","md","ma","mi","mn","ms","mo","mt","ne","nv","nh","nj","nm","ny","nc","nd","oh","ok", "or", "pa","pr","ri","sc","sd","tn","tx","ut","vt","va","wa","wv","wi","wy"]
 stateNames=["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
-def getData(folder, names, initials):
-  # if os.path.exists(dataCDC):
-  #   os.remove(dataCDC)
-  # print('Retrieving CDC data...')
-  # url = 'https://data.cdc.gov/api/views/9mfq-cb36/rows.csv?accessType=DOWNLOAD'
-  # wget.download(url, './src/cases.csv')
-  # print('Retrieved CDC data.')
+def getData(folder, names, initials, source):
+  if os.path.exists(dataCDC):
+    os.remove(dataCDC)
+  print('Retrieving CDC data...\n')
+  urlCDC = 'https://data.cdc.gov/api/views/9mfq-cb36/rows.csv?accessType=DOWNLOAD'
+  wget.download(urlCDC, './assets/cdc.csv')
+  print('\nRetrieved CDC data.\n')
 
   # csvCDC = csv.reader(dataCDC)
   # for row in csvCDC:
@@ -24,9 +27,22 @@ def getData(folder, names, initials):
   # cdcData.sort_values(by = 'submission_date', ascending = True, inplace = True)
   
   # download-directory.github.io?url=https://github.com/{org/user}/{repo}/tree/{branch}/{path}
+  if os.path.exists(dataJHU):
+    os.remove(dataJHU)
+  print('Retrieving JHU data...\n')
+  urlJHU = "download-directory.github.io?url=https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports_us"
+  wget.download(urlJHU, './assets/jhu.csv')
+  print('\nRetrieved JHU data.\n')
+
+  # https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
+  if os.path.exists(dataNYT):
+    os.remove(dataNYT)
+  print('Retrieving NYT data...\n')
+  urlNYT = "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv"
+  wget.download(urlNYT, './assets/nyt.csv')
+  print('\nRetrieved NYT data.\n')
 
   iNum = 0
-  sNum = 0
 
   for initial in initials:
     file = initials +"_cases.csv"
@@ -42,12 +58,11 @@ def getData(folder, names, initials):
       writer = csv.DictWriter(data, fieldnames=headers)
 
       writer.writeheader()
-      with open(dataCDC, mode='r') as cases:
+      with open('./assets/cases.csv', mode='r') as cases:
         reader = csv.reader(cases)
         for row in reader:
           if row[1].lower() == names:
             writer.writerow({'Date': row[0], 'New Cases': row[5]})
     iNum = iNum + 1;
-    sNum = sNum + 1;
 
-getData("data", stateNames, stateInitialsL)
+getData("data", stateNames, stateInitialsL, "CDC")
