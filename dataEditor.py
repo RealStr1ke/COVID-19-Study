@@ -1,7 +1,7 @@
 import os
 import csv
 import wget
-import glob
+from glob import glob
 import pandas as pd
 import shutil
 
@@ -15,12 +15,12 @@ def getData(folder, names, initials):
   # shutil.rmtree(dirJHU)
   # print('Cleared raw JHU data.\n')
 
-  print('Clearing COVID-19 data...\n')
-  shutil.rmtree(folder)
-  print('Cleared COVID-19 data.\n')
+  # print('Clearing COVID-19 data...\n')
+  # shutil.rmtree("./" + folder + "/")
+  # print('Cleared COVID-19 data.\n')
   os.makedirs(folder, exist_ok=True)
 
-  rawFiles = glob.glob(dirJHU + "*.txt")
+  rawFiles = [glob('./data/raw/*.csv')]
   initNum = 0
   print('Creating state data files...')
   for init in initials:
@@ -34,16 +34,19 @@ def getData(folder, names, initials):
     writer.writeheader()
     # newFilePath = "./" + folder + "/" + file
     # os.rename("./" + file, newFilePath)
-    print(initials[initNum])
+    # print(names[initNum])
+    initNum = initNum + 1
   print('Created state data files...')
 
   for rFile in rawFiles:
-    rawFile = csv.reader(rFile, delimiter=',')
+    # print(rFile)
+    rawFile = csv.reader(rFile)
     for row in rawFile:
       sNum = 0
+      print('Reading row #' + str(sNum))
       for name in names:
         if row[0] == name:
-          sFile = open((), "w")
+          print('True')
           headers = ['Date', 'New Cases']
           writer = csv.DictWriter(os.path.join("./" + folder, initials[sNum]), fieldnames=headers)
           writer.writerow({'Date': rFile, 'New Cases': row[5]})
