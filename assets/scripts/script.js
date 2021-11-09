@@ -58,6 +58,14 @@ map.forEach(function(name, id) {
           enablePolling: true,
           csvURL: './data/' + id + '_cases.csv'
       },
+      annotations: [{
+        labelOptions: {
+          backgroundColor: 'rgba(255,255,255,0.8)',
+          verticalAlign: 'top',
+          y: 10
+        },
+        labels: annotationPoints
+      }],
       title: {
           text: name + ' New Daily Cases Over Time'
       },
