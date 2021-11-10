@@ -20,8 +20,6 @@ def getData(folder, names, initials):
   # shutil.rmtree("./" + folder + "/")
   # print('Cleared COVID-19 data.\n')
   os.makedirs(folder, exist_ok=True)
-
-  rawFiles = [glob('./data/raw/*.csv')]
   initNum = 0
   print('Creating state data files...')
   for init in initials:
@@ -39,6 +37,7 @@ def getData(folder, names, initials):
     initNum = initNum + 1
   print('Created state data files...')
 
+  with open(data)
   for rFile in rawFiles:
     # print(rFile)
     rawFile = csv.reader(rFile)
