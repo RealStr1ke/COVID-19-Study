@@ -5,6 +5,7 @@ body {
   background-size: cover;
   font-family: 'Fruktur';
   font-size: 22px;
+  color: white;
 }
 .container {
   display: grid;
