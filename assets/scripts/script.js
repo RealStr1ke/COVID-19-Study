@@ -56,7 +56,7 @@ map.forEach(function(name, id) {
       },
       data: {
           enablePolling: true,
-          csvURL: './data/' + id + '_cases.csv'
+          csvURL: './assets/data/' + id + '_cases.csv'
       },
       title: {
           text: name + ' New Daily Cases Over Time'

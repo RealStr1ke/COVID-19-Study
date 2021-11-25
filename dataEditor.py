@@ -77,4 +77,4 @@ def getData(folder, names, initials):
   #       else:
   #         continue
 
-getData("dataset", stateNames, stateInitialsL)
+getData("assets/data", stateNames, stateInitialsL)
