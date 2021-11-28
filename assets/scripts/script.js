@@ -59,7 +59,7 @@ map.forEach(function(name, id) {
           csvURL: './assets/data/' + id + '_cases.csv'
       },
       title: {
-          text: name + ' New Daily Cases Over Time'
+          text: name + ' Daily Cases Over Time'
       },
       subtitle: {
           text: 'Mask-Mandated'
