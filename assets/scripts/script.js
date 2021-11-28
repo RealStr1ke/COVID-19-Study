@@ -62,7 +62,7 @@ map.forEach(function(name, id) {
           text: name + ' Daily Cases Over Time'
       },
       subtitle: {
-          text: 'Mask-Mandated'
+          text: 'Not Mask-Mandated'
       },
       xAxis: {
           type: 'datetime'
